@@ -79,14 +79,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         buttons.append(
             [
                 InlineKeyboardButton(text=_["S_B_7"], user_id=OWNER_ID),
-                InlineKeyboardButton(text=_["S_B_6"], url=f"{START_IMG_URL}"),
+                InlineKeyboardButton(text=_["S_B_6"], url="https://te.legra.ph/file/ec19cf227791a167abedc.jpg"),
             ]
         )
     else:
         if GITHUB_REPO:
             buttons.append(
                 [
-                    InlineKeyboardButton(text=_["S_B_6"], url=f"{START_IMG_URL}"),
+                    InlineKeyboardButton(text=_["S_B_6"], url="https://te.legra.ph/file/ec19cf227791a167abedc.jpg"),
                 ]
             )
         if OWNER:
