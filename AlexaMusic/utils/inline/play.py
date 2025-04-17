@@ -55,7 +55,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_CHANNEL),
         ],
         [
             InlineKeyboardButton(
@@ -88,7 +88,7 @@ def telegram_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_CHANNEL),
         ],
     ]
     return buttons
@@ -111,7 +111,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_CHANNEL),
         ],
     ]
     return buttons
@@ -175,7 +175,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
+                url=f"{SUPPORT_CHANNEL}",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -200,7 +200,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
+                url=f"{SUPPORT_CHANNEL}",
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
@@ -266,7 +266,7 @@ def panel_markup_1(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
+                url=f"{SUPPORT_CHANNEL}",
             ),
         ],
         [
