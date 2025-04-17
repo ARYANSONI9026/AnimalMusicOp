@@ -1,15 +1,15 @@
 {
-    "name": "Alexa Music",
+    "name": "Animal Music",
     "description": "Telegram streaming bot with some useful features, written in Python. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/ba967503682a55beaedd3.png",
+    "logo": "https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
     "keywords": [
     "python",
     "python3",
     "telegram",
     "bot",
-    "Alexa",
-    "alexamusic",
-    "alexamusicbot",
+    "Animal",
+    "animalmusic",
+    "animalmusicbot",
     "pytgcalls",
     "ntgcalls",
     "py-tgcalls",
@@ -19,12 +19,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "21592881",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "eba06a0d465f1d1797f0e92e97ac68ad",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "7710642242",
         "required": true
       },        
       "MONGO_DB_URI": {
@@ -64,7 +64,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/ARYANSONI9026/AnimalMusicOp",
+        "value": "https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
         "required": false
       },
       "LOG_GROUP_ID": {
