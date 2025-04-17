@@ -51,18 +51,18 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🌟", url=f"https://t.me/smartness_to_hai"),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋 🌟", url=f"https://t.me/smartness_to_hai"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_CHANNEL),
         ],
         [
             InlineKeyboardButton(
-                text=f"ᴜᴘᴅᴀᴛᴇs 📢",
+                text=f"𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢",
                 url=SUPPORT_CHANNEL,
             )
         ],
@@ -84,14 +84,14 @@ def telegram_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🌟", url=f"https://t.me/smartness_to_hai"),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋 🌟", url=f"https://t.me/smartness_to_hai"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_CHANNEL),
         ],
     ]
     return buttons
@@ -107,14 +107,14 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🌟", url=f"https://t.me/smartness_to_hai"),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋 🌟", url=f"https://t.me/smartness_to_hai"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 💬", url=SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_CHANNEL),
         ],
     ]
     return buttons
